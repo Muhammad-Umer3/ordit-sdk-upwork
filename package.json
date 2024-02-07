@@ -6,7 +6,7 @@
   "bugs": "https://github.com/ordzaar/ordit-sdk/issues",
   "scripts": {
     "prepare": "husky install",
-    "build": "turbo run build",
+    "build": "turbo run build --concurrency=1",
     "clean": "turbo run clean",
     "format": "prettier --write .",
     "lint": "turbo run lint -- --fix",

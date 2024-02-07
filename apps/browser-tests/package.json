@@ -13,7 +13,7 @@
     "lint": "eslint src --ext ts --report-unused-disable-directives"
   },
   "dependencies": {
-    "@ordzaar/ordit-sdk": "workspace:*",
+    "@ordzaar/ordit-sdk": "../../packages/sdk",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
